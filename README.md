@@ -15,7 +15,8 @@ Feel free to contribute to these guides by introducing new guides or improvement
 
 ## Table of contents
 
-1. [Project management in GitHub](/colloboration/project-management-in-github.md)
+1. [Project management in GitHub](/project-management-in-github.md)
+2. [Branching model](/branching-model.md)
 
 ## Credits
 
