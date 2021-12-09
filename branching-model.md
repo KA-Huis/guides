@@ -6,7 +6,7 @@ nav_order: 2
 
 # Branching model
 
-Git is a great tool to track changes made to a code base. It makes working in the same code base a breeze. While there is usually a similar flow of how code changes are going to the main branch, there are a lot of different branching models. The most popular is for example Git Flow, but GitHub Flow, GitLab Flow and One Flow are also available. These flows are usually modified to conform the situation.
+Git is a great tool to track changes made to a code base. It makes working in the same code base a breeze. While there is usually a similar flow of how code changes are going to the main branch, there are a lot of different branching models. The most popular is for example Git Flow, but GitHub Flow, GitLab Flow and One Flow are also available. These flows are usually modified to conform the situation of the project.
 
 There different type of repositories. Some repositories contain an application that will be deployed to at least a production environment and probably some test and sandbox environments as well. These type of repositories have a different need than for example packages, developer tools or documentation buckets. Below are these types defined:
 * Application
@@ -36,3 +36,23 @@ Always include a ticket number in the branch name, this will make it easy to fin
 All work branches in base should branch off from the `producion` branch to make branches independent of each other, meaning they will not block each other. Working branches can also branch of from other ticket branches, when they dependent on each other. Tickets can be quite big sometimes and can depend on many other tickets. In this case the developers needs to come up with a smart strategy to solve this. A solution could be to branch of from someone else's branch and merge back into the parent once it's reviewed and done. This will create a chain of branches. Another option is to create one big branch where multiple developers merge to. This can be used for Epics for example.
 
 Once you're done with your ticket you should create a pull request to the `acceptance` branch and wait till the minimum amount of reviews has been given. The given reviews should also be according to the [code review guidelines](code-review-guideliens.md). Make sure that the builds are not failing.
+
+### Continuous delivery
+
+It is the intention that the principles of continuous delivery (perhaps continuous deployments in some projects) are applied. It makes deployments more predictable and trustworthy.
+
+All work that has been done that is ready to be deployed should go immediately through the process. This way the time to market will be short and the releases will be small and manageable. Nobody likes to dig in a huge pull request for potential breaking changes. If anything breaks we can easily trace it back a release.
+
+The phases of continuous delivery take place in an infinite loop quickly after each other:
+
+1. Develop (implement details from ticket in code)
+2. Build (code is automatically built)
+3. Test (Manual review and automated tests unit, feature, integration, etc.)
+4. Release
+5. Deploy
+6. Monitor
+
+
+
+
+
