@@ -1,6 +1,8 @@
 # Project management in GitHub
 
-<summary>
+By using the provided project management tools from GitHub, we are keeping all information related to the development of our project within the same public location allowing anyone to contribute tot this project. The following setup is a strict requirement for all current projects within the organisation, but is open for modification to meet the need at that moment.
+
+It's important that these guidelines defines a simple, practical and open approach to manage a project while keeping the main elements the same.
 
 ## Repository Projects
 
