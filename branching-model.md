@@ -6,15 +6,16 @@ nav_order: 2
 
 # Branching model
 
-Git is a great tool to track changes made to a code base. It makes working in the same code base a breeze. While there is usually a similar flow of how code changes are going to the main branch, there are a lot of different branching models. The most popular is for example Git Flow, but GitHub Flow, GitLab Flow and One Flow are also available. These flows are usually modified to conform the situation of the project.
+Git is a great tool to track changes made to a code base. It makes working in the same code base a breeze. While there is usually a similar flow of how code changes are going to the main branch, there are a lot of different branching models. The most popular is arguably Git Flow which is is created by software developer Vincen Driessen in 2010. Nevertheless GitHub Flow, GitLab Flow and One Flow are also available and broadly used. These flows are usually modified to conform the situation of the project.
 
-There different type of repositories. Some repositories contain an application that will be deployed to at least a production environment and probably some test and sandbox environments as well. These type of repositories have a different need than for example packages, developer tools or documentation buckets. Below are these types defined:
-* Application
-  * Has a deployment process with different available environments. Can follow the SemVer version scheme.
-* Package
+We can distinguish between different types of repository projects. Some repositories contain an application that will be deployed to at least a production environment and probably some test and sandbox environments as well. These type of repositories have a different need than for example packages, developer tools or documentation repositories. Below are these types defined:
+
+* **Application**
+  * Has a deployment process with different available environments. Could follow the SemVer version scheme.
+* **Package**
   * Needs to follow SemVer when being released to package ecosystems.
-* Development tools
-  * Can vary in many ways
+* **Development tools**
+  * Can vary in many ways.
 
 ## Application
 
@@ -27,9 +28,9 @@ The acceptance branch should always be production ready. That means it should no
 
 Branch naming convention when working on tickets:
 
-* **feature/<ticket-number>-<short-feature-description>:** When the ticket is about introducing a new feature.
-* **bugfix/<ticket-number>-<short-bugfix-description>:** When the code change fixes a bug.
-* **hotfix/<ticket-number>-<short-hotfix-description>:** When something is broken on production and should immediately be fixed. This can go straight to the `production` branch.
+* `feature/<ticket-number>-<short-feature-description>:` When the ticket is about introducing a new feature.
+* `bugfix/<ticket-number>-<short-bugfix-description>:` When the code change fixes a bug.
+* `hotfix/<ticket-number>-<short-hotfix-description>:` When something is broken on production and should immediately be fixed. This can go straight to the `production` branch.
 
 Always include a ticket number in the branch name, this will make it easy to find the corresponding ticket.
 
@@ -38,6 +39,10 @@ All work branches in base should branch off from the `producion` branch to make 
 Once you're done with your ticket you should create a pull request to the `acceptance` branch and wait till the minimum amount of reviews has been given. The given reviews should also be according to the [code review guidelines](code-review-guideliens.md). Make sure that the builds are not failing.
 
 ### Continuous delivery
+
+![devops-team-abstract-concept-illustration_335657-3694](https://user-images.githubusercontent.com/16477999/146440891-5782c1ce-7e20-4815-890b-bc12203a3bdd.jpeg)
+
+<a href='https://www.freepik.com/vectors/abstract'>Abstract vector created by vectorjuice - www.freepik.com</a>
 
 It is the intention that the principles of continuous delivery (perhaps continuous deployments in some projects) are applied. It makes deployments more predictable and trustworthy.
 
