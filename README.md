@@ -17,7 +17,7 @@ The vision behind this documentation is to improve the overall collaboration bet
 
 Feel free to contribute to these guides by introducing new guides or improvements to existing guides. The most important aspect of standardising is that everyone will share the same vision on how to work within our organisation. This means that we welcome new ideas and practices.
 
-While these guides will always be a living document that's never be finished, there are some important things to keep in mind while propposing them:
+While these guides always remain a living document that's never be finished, there are some important things to keep in mind while proposing them or adjusting existing ones:
 
 * Try to keep uncertainty in mind.
 * Try to keep proposed processes simple and universal.
