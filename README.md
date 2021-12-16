@@ -1,6 +1,6 @@
 # KA-Huis Guides
 
-This repository contains standardised practices that we use  within our organisation. Information about our deployment process, used services and other kind of information will be placed here as well.
+This repository contains standardised practices that we use within our organisation. Information about our deployment process, used third party services and other types ofinformation will be placed here as well.
 
 This project is created by four students from [Fontys Hogeschool](https://fontys.nl/) for a semester challenge:
 
