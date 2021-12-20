@@ -83,7 +83,7 @@ To easily switch between projects it's nice to work with the same project manage
 | Task | Something needs to be done | #0251E6 |
 | Bug | Something isn't working | #d73a4a |
 | User Story | | #0D742E |
-| Epic | | ##B55CEF |
+| Epic | | #7D53C7 |
 
 #### User story estimations
 
