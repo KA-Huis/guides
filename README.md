@@ -6,10 +6,10 @@ The KA-Huis is a youth building located in the Posterholt (Limburg, The Netherla
 
 The current digitilising project of the KA-Huis is created and currently maintained by four students from [Fontys Hogeschool](https://fontys.nl/) for a semester challenge:
 
-* **Abas Sharif** - _Creator_ - [abassharif](https://github.com/abassharif)
-* **Cyril de Wit** - _Creator_ - [cyrildewit](https://github.com/cyrildewit)
-* **Mitch Kessels** - _Creator_ - [MiKessels](https://github.com/MiKessels)
-* **Joey Vonck** - _Creator_ - [joeyvonck](https://github.com/joeyvonck)
+* **Abas Sharif** - [abassharif](https://github.com/abassharif)
+* **Cyril de Wit** - [cyrildewit](https://github.com/cyrildewit)
+* **Mitch Kessels** - [MiKessels](https://github.com/MiKessels)
+* **Joey Vonck** - [joeyvonck](https://github.com/joeyvonck)
 
 ## Vision
 
