@@ -37,6 +37,12 @@ Important aspects to think about while reviewing:
 See [this blog post](https://www.michaelagreiler.com/code-review-checklist-2/) with extra information about these
 aspects.
 
+## Project code review guidelines
+
+Each project must define a code review checklist within its documentation.
+
+Please follow these guidelines and the use information that's provided in this generic guide as a resource. 
+
 ## Sources
 
 1. [A Code Review Checklist – Focus on the Important Issues](https://www.michaelagreiler.com/code-review-checklist-2/)
