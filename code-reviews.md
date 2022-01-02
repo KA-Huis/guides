@@ -1,3 +1,9 @@
+---
+layout: default
+title: Code Reviews
+nav_order: 4
+---
+
 # Code Reviews
 
 Performing good code reviews is a must to maintain the quality of a software project. After a contributor finished a
