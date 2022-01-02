@@ -1,6 +1,6 @@
 ---
 layout: default title: Dependency maintenance
-nav_order: 2
+nav_order: 5
 ---
 
 # Dependency maintenance
